@@ -1,11 +1,10 @@
-import Cards from "../src/components/cards";
-import { Container, Title, Description, CodeTag, Main } from "../src/styles/sharedstyles";
+import Cards from "../components/cards";
+import { Container, Title, Description, CodeTag, Main } from "../styles/sharedstyles";
 
 
 export default function Home() {
   return (
     <Container>
-      
       <Main>
         <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -19,5 +18,5 @@ export default function Home() {
         <Cards />
       </Main>
     </Container>
-  )
+  );
 }
