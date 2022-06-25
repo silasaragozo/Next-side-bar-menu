@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useRef } from "react";
+import LayoutHome from "../components/LayoutHome";
+
 export default function Home() {
+
   return (
     <>
-      <p>Teste</p>
+      <LayoutHome/>
     </>
   )
 }
