@@ -1,8 +1,12 @@
 const theme = {
-    bgDefault: "#F0F4F7",
-    bgSecondary: "#FFF",
-    textPrimary: "#e1e1e6",
-    primary: "#e1e6",
+  //Colors
+  primary: "#592FE2",
 
+  //Background
+  bgDefault: "#F0F4F7",
+  bgSecondary: "#FFF",
+
+  //TextColor
+  text: "#000035",
 };
-export default theme
+export default theme;

@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import * as S from "./style"
-import logoImg from '../../assets/logo.png'
+import * as S from "./style";
+import logoImg from "../../assets/logo.png";
+import Image from "next/image";
 
 const Logo: React.FC = () => {
   return (
     <>
-      <img  src="../../assets/logo.png"  alt=""/>  
-      <img  src={logoImg}  alt=""/> 
+      <Image src={logoImg} alt="" width="64" height="64" />
     </>
   );
-}
+};
 
 export default Logo;
