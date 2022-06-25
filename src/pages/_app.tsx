@@ -13,6 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   
   return (
     <>
+    {/* @ts-ignore */}
       <ThemeProvider theme={theme}>
         <Head>
           <title>Admin Painel</title>

@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle`
   html,
   body {
-    color: ${props =>  props.theme.colors.primary};
+    color: ${(props) => props.theme.primary};
+    background: ${(props) => props.theme.bgDefault};
 
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -18,7 +19,4 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
   }
-`
-
-
-
+`;
