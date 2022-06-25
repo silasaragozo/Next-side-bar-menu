@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Container, Title, Description, Main } from '../src/styles/sharedstyles'
+import { Container, Title, Description, Main } from '../styles/sharedstyles'
 
 export default function About() {
   return (
